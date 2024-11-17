@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formato Centrado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="contenedor-principal">
+        <div class="contenedor">
+            <div class="boton-clonar">
+                <label for="cantidad">Copias:</label>
+                <input type="number" id="cantidad" min="1" value="1">
+                <button id="clonar-formato">Clonar Formato</button>
+            </div>
+            <div class="recuadro">
+                <div class="relleno"></div>
+                <div class="contenido-blanco">
+                    <div class="contenido-texto">
+                        <p class="saludo">¡Buen Provecho!</p>
+                        <div class="campos">
+                            <div class="campo">
+                                <label>Nombre:</label>
+                                <input type="text" class="input-largo" value="">
+                            </div>
+                            <div class="linea-doble">
+                                <div class="campo">
+                                    <label>Habitación:</label>
+                                    <input type="text" class="input-corto" value="">
+                                </div>
+                                <div class="campo">
+                                    <label>Fecha de nacimiento:</label>
+                                    <input type="text" class="input-medio" value="">
+                                </div>
+                            </div>
+                            <div class="campo">
+                                <label>Dieta:</label>
+                                <input type="text" class="input-largo" value="">
+                            </div>
+                            <div class="campo">
+                                <input type="text" class="input-extra-largo" value="">
+                            </div>
+                            <!-- Campo de texto para Alergias y Observaciones -->
+                            <div class="campo">
+                                <label>Alergias y Observaciones:</label>
+                                 <input type="text" class="input-corto-alergias" value="Sin alergias"> <!-- Clase única para este cuadro -->
+                            </div>
+                            <div class="campo">
+                                  <input type="text" class="input-extra-largo" value="Observaciones adicionales">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="relleno"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

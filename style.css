@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-clonar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.boton-clonar input {
+    width: 50px;
+}
+
+.boton-clonar button {
+    background-color: #1a1a3b;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.boton-clonar button:hover {
+    background-color: #333366;
+}
+
+.recuadro {
+    width: 9cm;
+    height: 13.9cm;
+    background-color: #1a1a3b;
+    display: flex;
+    flex-direction: column;
+}
+
+.relleno {
+    height: 1.4cm;
+    background-color: #1a1a3b;
+}
+
+.contenido-blanco {
+    height: 11cm;
+    background-color: #ffffff;
+    padding: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* CENTRADO VERTICAL: Cambia esta propiedad si necesitas ajustar la posición */
+    align-items: flex-start;
+}
+
+.contenido-texto {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 0.75em;
+    padding-left: 0.5cm;
+    margin-top: 5cm; /* Ajusta este valor para centrar el contenido verticalmente */
+}
+
+.saludo {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.campos {
+    width: 100%;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.campo label {
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+/* Cuadro de texto para Dieta */
+.input-largo {
+    width: 6.5cm; /* <<< Marca: Cambia este valor para ajustar el ancho del cuadro de texto de "Dieta" */
+    border: 1px solid #000;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+/* Cuadro de texto para Habitación */
+.input-corto {
+    width: 1.2cm; /* <<< Marca: Cambia este valor para ajustar el ancho del cuadro de texto de "Habitación" */
+    border: 1px solid #000;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+/* Cuadro de texto para Fecha de Nacimiento */
+.input-medio {
+    width: 1.6cm; /* <<< Marca: Cambia este valor para ajustar el ancho */
+    border: 1px solid #000; /* Borde visible del cuadro */
+    padding: 2px; /* Espaciado interno del texto */
+    box-sizing: border-box; /* Asegura que el ancho total incluya bordes y relleno */
+}
+
+
+/* Cuadro de texto corto para Alergias y Observaciones */
+.input-corto-alergias {
+    width: 4cm; /* <<< Marca: Ajusta este valor para cambiar el tamaño del cuadro corto de Alergias */
+    border: 1px solid #000;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+
+/* Cuadro de texto largo para Alergias y Observaciones */
+.input-extra-largo {
+    width: 7.8cm; /* <<< Marca: Ajusta este valor para cambiar el tamaño del cuadro largo */
+    border: 1px solid #000; /* Borde visible del cuadro */
+    padding: 2px; /* Espaciado interno */
+    box-sizing: border-box; /* Asegura que el ancho total incluya bordes y relleno */
+    margin-top: 5px; /* Espaciado entre este campo y el anterior */
+}
+
+/* Línea doble para Habitación y Fecha */
+.linea-doble {
+    display: flex;
+    gap: 0.2cm;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
